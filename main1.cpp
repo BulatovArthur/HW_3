@@ -23,7 +23,7 @@ void Output(int**& mas, int& a, int& b, int argc, char* argv[])
   p = 2;
   string first, second;
 
-  for (i = 0; (argv[1][i] != 'x'); i++)  // задаем размеры массивы двумерного
+  for (i = 0; (argv[1][i] != 'x'); i++)  // задаем размеры массива двумерного
     first += argv[1][i];
 
   for (i += 1; i < strlen(argv[1]); i++)
