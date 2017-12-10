@@ -48,10 +48,7 @@ int init_td(int **td, int &a, int &b, int argc, char *argv[])
 void show_td(int **td, int &a, int &b)
 {
 	if (td == nullptr)
-	{
 		cout << "Matrix is empty" << endl;
-		return;
-	}
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < b; j++)
